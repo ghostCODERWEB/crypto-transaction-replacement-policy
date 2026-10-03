@@ -1,0 +1,26 @@
+{
+  "bump_percent": 10,
+  "transactions": [
+    {
+      "id": "a",
+      "account": "w",
+      "nonce": 0,
+      "fee": 100,
+      "tip": 10
+    },
+    {
+      "id": "b",
+      "account": "w",
+      "nonce": 0,
+      "fee": 109,
+      "tip": 11
+    },
+    {
+      "id": "c",
+      "account": "w",
+      "nonce": 0,
+      "fee": 110,
+      "tip": 11
+    }
+  ]
+}

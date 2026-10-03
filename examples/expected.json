@@ -1,0 +1,35 @@
+{
+  "accepted_count": 2,
+  "pool": [
+    {
+      "account": "w",
+      "fee": 110,
+      "id": "c",
+      "nonce": 0,
+      "tip": 11
+    }
+  ],
+  "trace": [
+    {
+      "accepted": true,
+      "id": "a",
+      "replaced": null,
+      "required_fee": 0,
+      "required_tip": 0
+    },
+    {
+      "accepted": false,
+      "id": "b",
+      "replaced": null,
+      "required_fee": 110,
+      "required_tip": 11
+    },
+    {
+      "accepted": true,
+      "id": "c",
+      "replaced": "a",
+      "required_fee": 110,
+      "required_tip": 11
+    }
+  ]
+}
